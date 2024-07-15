@@ -1,0 +1,52 @@
+
+.bg_container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login_bg_container{
+    padding: 40px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px 0px black;
+}
+
+
+.username_label_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 40px;
+
+}
+
+.username_label {
+    font-size: 20px;
+}
+
+
+.username_input {
+    width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.login_button {
+    background-color: rgb(50, 50, 114);
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    width: 300px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.login_eye_icon {
+    margin-left: -20px;
+}
