@@ -2,6 +2,8 @@ import { useState } from 'react';
 import './index.css';
 import image1 from '../../assets/image1.png';
 import image2 from '../../assets/image.png';
+import image3 from '../../assets/kitchen_bar.jpg'
+import image4 from '../../assets/profile2.jpeg'
 import { MdOutlineRemoveRedEye, MdOutlineVisibilityOff } from "react-icons/md";
 import { useNavigate } from 'react-router-dom';
 // import axios from 'axios';
@@ -81,8 +83,8 @@ const Registration = () => {
                         <div>
                             <img src={image1} alt="im1" className="profile_img" />
                             <img src={image2} alt="im1" className="profile_img2" />
-                            <img src={image2} alt="im1" className="profile_img2" />
-                            <img src={image2} alt="im1" className="profile_img2" />
+                            <img src={image3} alt="im1" className="profile_img2" />
+                            <img src={image4} alt="im1" className="profile_img2" />
                         </div>
                         <p className='welcome_para'>More than 17k people joined us, it's your turn</p>
                     </div>
