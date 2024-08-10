@@ -130,8 +130,8 @@ const Registration = () => {
                         />
                     </div>
                     <div className='checkbox_declaration_container'>
-                        <input type='checkbox' onClick={toggleCheckbox} />
-                        <p>I agree to the <span className='sign_span'>Terms of Service </span> and <span className='sign_span'>Privacy Policy</span></p>
+                        <input id='checkbox_dec' type='checkbox' onClick={toggleCheckbox} />
+                        <label htmlFor='checkbox_dec'>I agree to the <span className='sign_span'>Terms of Service </span> and <span className='sign_span'>Privacy Policy</span></label>
                     </div>
                     <button disabled={!isChecked} className='create_account-button' onClick={toggleTabs}>Create your free account</button>
                 </form>

@@ -1,6 +1,7 @@
 
 *{
     box-sizing: border-box;
+    font-family: "Roboto", "RobotoDraft", Helvetica, Arial, sans-serif;
 }   
 
 
@@ -11,6 +12,7 @@
     /* transition: width 1s,flex-direction 1s,transform 1s; */
     height: 100vh;
     /* width: 100%; */
+    
    
 }
 
@@ -24,8 +26,10 @@
 }
 
 .welcome_text_container {
-    background-color: rgb(7, 13, 18);
+    /* background-color: rgb(7, 13, 18); */
+    background-color: #1E293B;
     height: 100vh;
+    
     
     width: 1000px;
     display: flex;
@@ -77,7 +81,8 @@
 }
 
 .welcome_para {
-    color: rgb(117, 126, 127);
+    /* color: rgb(117, 126, 127); */
+    color: #6F7572;
     font-size: 20px;
     line-height: 28px;
 }
@@ -94,6 +99,8 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
+    /* clip-path: polygon(0% 0%, 75% 0%, 80% 90%, 70% 100%, 0% 100%); */
+    /* margin-right: -10px; */
 }
 @media screen and (max-width:480px) {
     .profile_img{
@@ -149,7 +156,9 @@
 }
 
 .full_name_label{
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
     
 }
 
@@ -158,20 +167,26 @@
     padding: 10px;
     /* border-radius: 5px; */
     margin-top: 10px;
+    
 }
 
 .eye_icon {
     margin-left: -30px;
-    margin-top: 20px;
-
+    
+    cursor: pointer;
 }
 
 .checkbox_declaration_container {
     display: flex;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
 }
 
 .create_account-button {
-    background-color: rgb(50, 50, 114);
+    /* background-color: rgb(50, 50, 114);/ */
+    background-color: #4F46E5;
     padding: 15px;
     border-radius: 15px;
     border: none;
@@ -186,4 +201,9 @@
     cursor: not-allowed; 
     background-color: #cccccc; 
     color: #666666; 
+}
+
+
+label{
+    font-size: 15px;
 }
